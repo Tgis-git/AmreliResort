@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css">
+        <link rel="stylesheet" href="resources/fontawesome-all.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/horsey.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/ol-search-layer.min.css">
+        <link href="resources/photon-geocoder-autocomplete.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        .ol-control > * {
+            background-color: #f8f8f8!important;
+            color: #444444!important;
+            border-radius: 0px;
+        }
+        .ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
+            color: #444444!important;
+        }
+        .search-layer-input-search {
+            background-color: #f8f8f8!important;
+        }
+        .ol-control > *:focus, .ol-control >*:hover {
+            background-color: rgba(248, 248, 248, 0.7)!important;
+        } 
+        .ol-control {
+            background-color: rgba(255,255,255,.4) !important;
+            padding: 2px !important;
+        } 
+        </style>
+
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="map">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/qgis2web_expressions.js"></script>
+        <script src="./resources/functions.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="resources/horsey.min.js"></script>
+        <script src="resources/ol-search-layer.js"></script>
+        <script src="./resources/ol-layerswitcher.js"></script>
+        <script src="resources/photon-geocoder-autocomplete.min.js"></script>
+        <script src="resources/olms.js"></script>
+        <script src="layers/200x200MGrid_6.js"></script><script src="layers/100x100MGrid_7.js"></script><script src="layers/Zonations_8.js"></script><script src="layers/100MeterStreams_10.js"></script><script src="layers/10MeterStreams_11.js"></script><script src="layers/Streams_12.js"></script><script src="layers/Forest_14.js"></script><script src="layers/DistancetoForestLine_15.js"></script><script src="layers/Catchment_16.js"></script><script src="layers/Streams_17.js"></script><script src="layers/Geomorphology_22.js"></script><script src="layers/Geology_23.js"></script><script src="layers/Dyke_24.js"></script><script src="layers/TreeSpeciesPoints_26.js"></script><script src="layers/TreeCount_27.js"></script><script src="layers/3MeterContours_31.js"></script><script src="layers/Roads_32.js"></script><script src="layers/5KmBuffer_33.js"></script><script src="layers/PlotBoundary_34.js"></script>
+        <script src="styles/200x200MGrid_6_style.js"></script><script src="styles/100x100MGrid_7_style.js"></script><script src="styles/Zonations_8_style.js"></script><script src="styles/100MeterStreams_10_style.js"></script><script src="styles/10MeterStreams_11_style.js"></script><script src="styles/Streams_12_style.js"></script><script src="styles/Forest_14_style.js"></script><script src="styles/DistancetoForestLine_15_style.js"></script><script src="styles/Catchment_16_style.js"></script><script src="styles/Streams_17_style.js"></script><script src="styles/Geomorphology_22_style.js"></script><script src="styles/Geology_23_style.js"></script><script src="styles/Dyke_24_style.js"></script><script src="styles/TreeSpeciesPoints_26_style.js"></script><script src="styles/TreeCount_27_style.js"></script><script src="styles/3MeterContours_31_style.js"></script><script src="styles/Roads_32_style.js"></script><script src="styles/5KmBuffer_33_style.js"></script><script src="styles/PlotBoundary_34_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/Autolinker.min.js"></script>
+        <script src="./resources/qgis2web.js"></script>        
+    </body>
+</html>
